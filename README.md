@@ -45,3 +45,7 @@ git push -d origin test1
 ## git push branch to origin
 - git push origin testfa
 - git push --set-upstream origin testing-file
+
+## view merge conflict
+- git status
+
