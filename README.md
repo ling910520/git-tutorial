@@ -28,13 +28,9 @@ git push - u origin master
 git fetch  
 git reset --hard origin/master
 
-## switch to remote branch
-- git checkout --track origin/daves_branch
-
 ## tracked newly created remote branch
 
 git checkout --track origin/test1
-
 
 ##  Changing the Last Commit:
 git commit --amend --no-edit
@@ -47,5 +43,5 @@ git rebase --continue
 git push -d origin test1
 
 ## git push branch to origin
-git push origin testfa
-
+- git push origin testfa
+- git push --set-upstream origin testing-file
