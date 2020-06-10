@@ -49,3 +49,8 @@ git push -d origin test1
 ## view merge conflict
 - git status
 
+## clone without create a new folder
+- git clone <repo_url> .
+
+## reset url origin
+- git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
