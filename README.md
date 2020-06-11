@@ -54,3 +54,6 @@ git push -d origin test1
 
 ## reset url origin
 - git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+## Please commit your changes or stash them before you switch branches.
+git reset --hard
