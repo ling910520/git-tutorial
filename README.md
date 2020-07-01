@@ -59,7 +59,7 @@ git push -d origin test1
 git reset --hard
 
 
-Checkout
+## Checkout
 
 git checkout --orphan latest_branch
 
