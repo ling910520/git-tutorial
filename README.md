@@ -12,6 +12,7 @@ repository for git tutorial
 ## branching
 git checkout -b "iss1" 5773  
 git checkout -d "iss1"  
+git branch -a
 
 ## git fetch
 git fetch --all
