@@ -85,3 +85,9 @@ Finally, force update your repository
 git push -f origin master
 
 PS: this will not keep your old commit history a
+
+
+## Untrack files already added to git repository based on .gitignore
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
