@@ -102,4 +102,24 @@ class SkyHost(secxgem.GemHostHandler):
         secxgem.GemHostHandler.__init__(self, address, port, active, session_id, name, custom_connection_handler)
         Log(eqpId) #* initialize log files
         self.MDLN = "skyhost"
-        self.SOFTREV = "1.0.0"```
+        self.SOFTREV = "1.0.0"
+```
+
+
+## git delete remote tag
+-> git push tags to remote origin 
+```
+git push origin <tag_name>
+
+git push --tags
+```
+
+-> delete remote tag
+```
+git push --delete origin simplify_event_config
+```
+
+
+
+
+
