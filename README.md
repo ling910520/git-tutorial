@@ -91,3 +91,15 @@ PS: this will not keep your old commit history a
 git rm -r --cached .
 git add .
 git commit -m ".gitignore fix"
+
+```
+class SkyHost(secxgem.GemHostHandler):
+    """
+    sau ling host
+    """
+
+    def __init__(self, address, port, active, session_id, name, custom_connection_handler=None):
+        secxgem.GemHostHandler.__init__(self, address, port, active, session_id, name, custom_connection_handler)
+        Log(eqpId) #* initialize log files
+        self.MDLN = "skyhost"
+        self.SOFTREV = "1.0.0"```
